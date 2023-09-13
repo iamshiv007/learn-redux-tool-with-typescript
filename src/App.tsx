@@ -1,13 +1,11 @@
 import {} from "react";
 import "./App.css";
+import UserPage from "./features/users/user";
 
 function App() {
   return (
     <>
-      <div>
-        Project initialized ( React project with typescript to learn
-        redux-toolkit with typescript )
-      </div>
+      <UserPage />
     </>
   );
 }
